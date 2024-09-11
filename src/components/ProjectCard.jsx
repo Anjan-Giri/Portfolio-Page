@@ -14,7 +14,7 @@ function ProjectCard({ image, title, description, link }) {
         <a
           href={link}
           target="_blank"
-          className="text-white bg-gradient-to-r from-cyan-800 to-blue-900 mt-4 block px-6 py-4 text-center mx-14 rounded-lg hover:cursor-pointer hover:text-black hover:scale-105 duration-200"
+          className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-900 cursor-pointer hover:cursor-pointer hover:text-black hover:scale-105 duration-200"
         >
           View Details
         </a>
