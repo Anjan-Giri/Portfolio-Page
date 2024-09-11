@@ -23,18 +23,21 @@ function Contact() {
             <input
               type="text"
               name="name"
+              required
               placeholder="your name..."
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
-              type="text"
+              type="email"
               name="email"
+              required
               placeholder="example@gmail.com"
               className="p-2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
               name="message"
               rows="10"
+              required
               placeholder="your message..."
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
