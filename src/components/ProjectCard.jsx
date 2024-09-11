@@ -7,10 +7,10 @@ function ProjectCard({ image, title, description, link }) {
         <img
           src={image}
           alt={title}
-          className="w-full h-48 object-cover rounded-t-lg"
+          className="w-full h-48 object-contain rounded-t-lg"
         />
-        <h2 className="text-xl font-bold mt-3 text-gray-200">{title}</h2>
-        <p className="mt-2 text-gray-300">{description}</p>
+        <h2 className="text-xl font-bold mt-3 text-gray-300">{title}</h2>
+        <p className="mt-2 text-gray-400">{description}</p>
         <a
           href={link}
           target="_blank"
